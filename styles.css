@@ -2,6 +2,8 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
 .main {
@@ -34,6 +36,8 @@ body {
   background-color: white;
   display: inline-block;
   width: 100%;
+  overflow-y: scroll;
+  height: auto;
 }
 
 .news a {
@@ -45,8 +49,8 @@ body {
 }
 
 .play {
-  display: inline-block
-  /*margin: 10px;*/
+  display: inline-block;
+  margin: 20px;
   /*text-align: center;*/
   color: white;
   height: 48px;
